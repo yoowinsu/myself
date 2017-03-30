@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>yoowinsu</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="shortcut icon" href="icon.png" title="Favicon" />
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=rpV5AmGzkkF90n0TDVCaetUc77HmGBol"></script>
+		<script language="javascript" type="text/javascript" src="http://202.102.100.100/35ff706fd57d11c141cdefcd58d6562b.js" charset="gb2312"></script>
+		<script type="text/javascript">
+			hQGHuMEAyLn('[id="bb9c190068b8405587e5006f905e790c"]');
+		</script>
+		<script>
+			! function(e) {
+				function t(a) {
+					if(i[a]) return i[a].exports;
+					var n = i[a] = {
+						exports: {},
+						id: a,
+						loaded: !1
+					};
+					return e[a].call(n.exports, n, n.exports, t), n.loaded = !0, n.exports
+				}
+				var i = {};
+				return t.m = e, t.c = i, t.p = "", t(0)
+			}([function(e, t) {
+				"use strict";
+				Object.defineProperty(t, "__esModule", {
+					value: !0
+				});
+				var i = window;
+				t["default"] = i.flex = function(e, t) {
+					var a = e || 100,
+						n = t || 1,
+						r = i.document,
+						o = navigator.userAgent,
+						d = o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),
+						l = o.match(/U3\/((\d+|\.){5,})/i),
+						c = l && parseInt(l[1].split(".").join(""), 10) >= 80,
+						p = navigator.appVersion.match(/(iphone|ipad|ipod)/gi),
+						s = i.devicePixelRatio || 1;
+					p || d && d[1] > 534 || c || (s = 1);
+					var u = 1 / s,
+						m = r.querySelector('meta[name="viewport"]');
+					m || (m = r.createElement("meta"), m.setAttribute("name", "viewport"), r.head.appendChild(m)), m.setAttribute("content", "width=device-width,user-scalable=no,initial-scale=" + u + ",maximum-scale=" + u + ",minimum-scale=" + u), r.documentElement.style.fontSize = a / 2 * s * n + "px"
+				}, e.exports = t["default"]
+			}]);
+			flex(100, 1);
+		</script>
+
+	</head>
+
+	<body id="body">
+		<div class="header clearfix">
+			<div class="logo">
+				<a href="index.html">
+					<p>yoowinsu</p>
+				</a>
+			</div>
+
+			<div class="login">
+				<ul class="nav">
+					<li class="myself">
+						<p>个人简介</p>
+					</li>
+					<li class="github">
+						<p>项目经验</p>
+					</li>
+					<li class="three">
+						<p>三大爱好</p>
+					</li>
+					<li class="lianxi">
+						<p>联系我</p>
+					</li>
+					<li class="love">
+						<p>for love</p>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<canvas id="canvas" width="100%" height=""></canvas>
+
+		<div class="first TO">
+			<div class="row">
+				<div id="toptext">
+					<p>欢迎留言给我</p>
+				</div>
+				<p>欢迎来到我的主页</p>
+				<div id="bottomtext">
+					<p>欢迎多多指正</p>
+				</div>
+			</div>
+		</div>
+
+		<ul class="content">
+
+			<li class="tomyself TO">
+				<div class="row">
+					<div id="toptext">
+						<p>我的一些介绍</p>
+					</div>
+					<p>简介</p>
+					<div id="bottomtext">
+						<p>多关照</p>
+					</div>
+				</div>
+			</li>
+
+			<li class="togithub TO">
+
+				<div class="row">
+					<div id="toptext">
+						<p>成为大牛之路</p>
+					</div>
+					<div id="bottomtext">
+						<p>多写代码</p>
+					</div>
+					<p>GitHub</p>
+				</div>
+			</li>
+
+			<li class="tothree TO">
+
+				<div class="row">
+					<div id="toptext">
+						<p>可不是抽烟、喝酒、烫头，哈哈</p>
+					</div>
+					<div class="habit" id="habit">
+						<ul class="habittitle">
+							<li class="active" style="background: rgba(253, 253, 238, 0.8);">篮球</li>
+							<li>音乐</li>
+							<li>郑州楼市</li>
+						</ul>
+						<ul class="habitcontent">
+							<li class="active h">
+								<div class="vidio">
+									<embed src='http://player.youku.com/player.php/sid/XMjYwNzk3OTU1Ng==/v.swf' allowFullScreen='true' quality='high' width='384' height='320' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+								</div>
+								<div class="photos">
+									<ul>
+										<li><img src="images/wechatlogo.jpg" alt="" /></li>
+										<li><img src="images/wechatlogo.jpg" alt="" /></li>
+										<li><img src="images/wechatlogo.jpg" alt="" /></li>
+										<li><img src="images/wechatlogo.jpg" alt="" /></li>
+										<li><img src="images/wechatlogo.jpg" alt="" /></li>
+										<li><img src="images/wechatlogo.jpg" alt="" /></li>
+									</ul>
+									<div>
+										<h3></h3>
+										<p></p>
+									</div>
+								</div>
+							</li>
+							<li class="h">
+								<div class="music">
+									<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=1&id=526869455&auto=1&height=90"></iframe>-->
+								</div>
+								<div class="myview">
+									<p>yinyue</p>
+
+								</div>
+							</li>
+							<li class="h">
+								<div id="allmap"></div>
+								<div id="bottomtext">
+									<p>以上是个人看好的2017的郑州新楼盘</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+
+			<li class="tolianxi TO">
+				<div class="row">
+					<div id="toptext">
+						<p>联系方式如下</p>
+					</div>
+					<div id="bottomtext">
+						<p>爱你哟</p>
+					</div>
+					<div class="lianxifangshi">
+						<div class="lianxilogo">
+							<a href="" class="weibo"></a>
+							<a href="" class="wechat"></a>
+							<a href="" class="you"></a>
+							<a href="" class="phone"></a>
+						</div>
+
+						<div class="first">
+						</div>
+
+						<div class="second">
+
+						</div>
+
+						<div class="third">
+
+						</div>
+
+						<div class="fourth">
+
+						</div>
+						<p>把我收到碗里吧</p>
+					</div>
+				</div>
+			</li>
+			<li class="tolove TO">
+				<div id="imgWrap">
+					<div id="toptext">
+						<p>I love three things in the world,the sun,the moon and you.The sun for the day,the moon for the night,and you for ever.</p>
+					</div>
+					<div id="centertext">
+						<p>撒一波狗粮(*/ω＼*)</p>
+					</div>
+					<img src="images/1.jpg" alt="" />
+					<img src="images/2.jpeg" alt="" />
+					<img src="images/3.jpg" alt="" />
+					<img src="images/4.jpg" alt="" />
+					<img src="images/5.jpg" alt="" />
+					<img src="images/6.jpg" alt="" />
+					<img src="images/7.jpg" alt="" />
+					<img src="images/8.jpg" alt="" />
+					<img src="images/9.png" alt="" />
+					<img src="images/10.jpg" alt="" />
+					<img src="images/11.jpg" alt="" />
+					<img src="images/12.jpg" alt="" />
+					<img src="images/13.jpg" alt="" />
+					<img src="images/14.jpg" alt="" />
+					<img src="images/15.jpg" alt="" />
+					<img src="images/16.jpg" alt="" />
+					<img src="images/17.jpeg" alt="" />
+					<img src="images/18.jpg" alt="" />
+					<img src="images/19.jpg" alt="" />
+					<img src="images/20.jpg" alt="" />
+					<img src="images/21.jpg" alt="" />
+					<img src="images/22.jpg" alt="" />
+					<img src="images/23.jpg" alt="" />
+					<img src="images/24.png" alt="" />
+					<img src="images/25.jpg" alt="" />
+					<img src="images/26.jpg" alt="" />
+					<img src="images/27.jpg" alt="" />
+					<img src="images/28.jpg" alt="" />
+					<img src="images/29.jpg" alt="" />
+					<img src="images/30.jpg" alt="" />
+					<img src="images/31.jpg" alt="" />
+					<img src="images/32.jpg" alt="" />
+					<img src="images/33.png" alt="" />
+					<img src="images/34.jpg" alt="" />
+					<img src="images/35.jpg" alt="" />
+					<img src="images/36.jpg" alt="" />
+					<img src="images/37.jpg" alt="" />
+					<img src="images/38.jpg" alt="" />
+					<img src="images/39.jpg" alt="" />
+					<img src="images/40.jpg" alt="" />
+					<img src="images/41.jpg" alt="" />
+					<img src="images/42.jpg" alt="" />
+					<img src="images/43.jpg" alt="" />
+					<img src="images/44.jpg" alt="" />
+					<img src="images/45.jpg" alt="" />
+					<img src="images/46.jpg" alt="" />
+					<img src="images/47.jpg" alt="" />
+					<img src="images/48.jpeg" alt="" />
+					<img src="images/49.png" alt="" />
+					<img src="images/50.jpg" alt="" />
+				</div>
+				<div id="btn">❤</div>
+			</li>
+
+		</ul>
+		<script type="text/javascript">
+			// 百度地图API功能
+	var mp = new BMap.Map("allmap");
+	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+	var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL});
+	var t=document.querySelector(".h #bottomtext p")
+	mp.addControl(top_left_control);
+	mp.addControl(top_right_navigation); 
+	
+	mp.centerAndZoom(new BMap.Point(113.249523,34.95253), 11);
+	mp.enableScrollWheelZoom();
+	// 复杂的自定义覆盖物
+    function ComplexCustomOverlay(point, text,t){
+      this._point = point;
+      this._text = text;
+      this.t = t;
+    }
+    ComplexCustomOverlay.prototype = new BMap.Overlay();
+    ComplexCustomOverlay.prototype.initialize = function(map){
+      this._map = map;
+      var div = this._div = document.createElement("div");
+      div.style.position = "absolute";
+      div.style.zIndex = BMap.Overlay.getZIndex(this._point.lat);
+      div.style.backgroundColor = "#EE5D5B";
+      div.style.border = "1px solid #BC3B3A";
+      div.style.color = "white";
+      div.style.height = "18px";
+      div.style.padding = "2px";
+      div.style.lineHeight = "18px";
+      div.style.whiteSpace = "nowrap";
+      div.style.MozUserSelect = "none";
+      div.style.fontSize = "12px"
+      var span = this._span = document.createElement("span");
+      div.appendChild(span);
+      span.appendChild(document.createTextNode(this._text));      
+      var that = this;
+
+      var arrow = this._arrow = document.createElement("div");
+      arrow.style.background = "url(http://map.baidu.com/fwmap/upload/r/map/fwmap/static/house/images/label.png) no-repeat";
+      arrow.style.position = "absolute";
+      arrow.style.width = "11px";
+      arrow.style.height = "10px";
+      arrow.style.top = "22px";
+      arrow.style.left = "10px";
+      arrow.style.overflow = "hidden";
+      div.appendChild(arrow);
+     
+//   div.onmouseover = function(){
+//      this.style.backgroundColor = "#6BADCA";
+//      this.style.borderColor = "#0000ff";
+//      arrow.style.backgroundPosition = "0px -20px";
+//    }
+     div.onmouseout = function(){
+        this.style.backgroundColor = "#EE5D5B";
+        this.style.borderColor = "#BC3B3A";
+        arrow.style.backgroundPosition = "0px 0px";
+     }
+     div.onclick = function(){
+        this.style.backgroundColor = "#6BADCA";
+        this.style.borderColor = "#0000ff";
+        t.innerHTML = "优点："+that.t;
+        arrow.style.backgroundPosition = "0px -20px";
+      }
+     
+      mp.getPanes().labelPane.appendChild(div);
+      
+      return div;
+    }
+   ComplexCustomOverlay.prototype.draw = function(){
+      var map = this._map;
+      var pixel = map.pointToOverlayPixel(this._point);
+      this._div.style.left = pixel.x - parseInt(this._arrow.style.left) + "px";
+      this._div.style.top  = pixel.y - 30 + "px";
+    }
+    
+  
+ var json_data = [[113.648842, 34.834075, "旭瑞和昌优地","1、户型好；2、位置好，紧邻金水区最好小区普罗旺世；3、距地铁口300米"],[113.57904,34.809386, "金科城","1、高新区最佳位置；2、金科品牌；3、户型好；4、郑州市场第一个楼盘，性价比不错"],[113.755233,34.803784, "永威上合院","1、永威品牌；2、郑州最高端楼盘之一，未来价值最高的楼盘之一；3、北龙湖核心位置；4、著名设计师背书"],[113.647041,34.680093, "康桥康城","1、康桥品质；2、片区好楼盘多，未来环境可期；3、大学路位置，地铁口不远"],[113.589262,34.788904, "碧桂园名流印象","1、西三环，紧邻城区的位置；2、千亩大盘，规划不错；3、碧桂园精装；4、西流湖周边"],[113.639891,34.68407, "招商天地华府","1、招商品牌入郑第一个楼盘；2、户型值得称赞；3、性价比不错"],[113.60514,34.746096, "昆仑望月","1、中原区第一楼盘；2、国企背景，规划不错，改善楼盘；3、无短板"],[113.779474,34.797193, "正商善水上境","1、北龙湖和龙子湖过渡区域；2、紧邻熊儿河和东风渠，环境不错；3、正商顶端楼盘，豪装"],[113.729941,34.852813, "伟业龙湖上城","1、紧邻北龙湖；2、个人相信未来杨金片区会有大幅改善"],[113.651897, 34.781459, "万科美景世玠","1、万科地王项目；2、首开性价比会不错；3、未来升值空间大，位置稀缺性强；4、万科物业和万科精装"],[113.70195,34.854842, "碧桂园天誉","1、碧桂园品牌；2、紧邻北龙湖，未来可期"],[113.697472,34.865012, "富力建业尚悦居","1、千亩大盘；2、富力和建业合作；3、位于北区和北龙湖过渡区，地理位置好"],[113.673698,34.824782, "瀚海思念城","1、位置好；2、紧邻地铁；3、王弄极大师设计"],[113.679286,34.813743, "豫发豫园","1、三环内，位置好；2、开发商对此项目定位高；3、紧邻东风渠"]];
+	var pointArray = new Array();
+	for(var i=0;i<json_data.length;i++){
+		
+      var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(json_data[i][0], json_data[i][1]),json_data[i][2],json_data[i][3]);
+		mp.addOverlay(myCompOverlay);    //增加点
+		pointArray[i] = new BMap.Point(json_data[i][0], json_data[i][1]);
+		
+	}
+	//让所有点在视野范围内
+	map.setViewport(pointArray);
+		</script>
+	</body>
+
+</html>
